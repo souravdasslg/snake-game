@@ -1,0 +1,8 @@
+.scoreCard{
+   position:absolute;
+   top:500px;
+   width: 400px;
+   height: 40px;
+   align-content: center;
+   background-color: coral;
+}
