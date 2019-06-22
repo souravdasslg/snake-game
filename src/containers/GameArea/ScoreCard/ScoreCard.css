@@ -3,6 +3,10 @@
    top:500px;
    width: 400px;
    height: 40px;
+   display: flex;
    align-content: center;
-   background-color: coral;
+   justify-content: center;
+   background-color: rgb(141, 80, 255);
+   color: #ffffff;
+   font-size: 1.3em;
 }

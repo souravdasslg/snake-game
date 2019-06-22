@@ -114,12 +114,13 @@ class GameArea extends Component {
         })
     }
     playAgainHandler = () => {
-        this.setState({gameStatus:'started'},()=>{
+        this.setState({gameStatus:'started',score:0},()=>{
             this.canvas = this.refs.canvas
             this.ctx = this.canvas.getContext('2d')
             this.snake = [...this.initialSnakeArray]
             this.drawSnake()
             this.intervalReference = setInterval(this.advanceSnake,50)
+            this.currentMovingDirection = 'Right'
         })
     }
     componentDidMount() {
