@@ -13,6 +13,7 @@ class GameArea extends Component {
     currentMovingDirection = 'Right'
     food
     isFoodPresent = false
+    gameSpeed = 100
     state = {
         score:0,
         gameStatus:'notReady',
@@ -110,7 +111,7 @@ class GameArea extends Component {
             this.canvas = this.refs.canvas
             this.ctx = this.canvas.getContext('2d')
             this.drawSnake()
-            this.intervalReference = setInterval(this.advanceSnake,50)
+            this.intervalReference = setInterval(this.advanceSnake,this.gameSpeed)
         })
     }
     playAgainHandler = () => {
@@ -119,12 +120,15 @@ class GameArea extends Component {
             this.ctx = this.canvas.getContext('2d')
             this.snake = [...this.initialSnakeArray]
             this.drawSnake()
-            this.intervalReference = setInterval(this.advanceSnake,50)
             this.currentMovingDirection = 'Right'
+            this.isFoodPresent = false
+            this.intervalReference = setInterval(this.advanceSnake,this.gameSpeed)
         })
     }
     componentDidMount() {
         document.addEventListener('keydown',this.handleKeyPress)
+    }
+    componentWillUpdate() {
     }
     render() {
         return (
