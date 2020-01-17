@@ -54,7 +54,7 @@
     "resolve": "1.10.0",
     "sass-loader": "7.1.0",
     "semantic-ui-react": "0.87.1",
-    "semver": "6.0.0",
+    "semver": "6.3.0",
     "style-loader": "0.23.1",
     "terser-webpack-plugin": "1.2.3",
     "text-image": "0.7.0",
