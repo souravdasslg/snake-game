@@ -52,7 +52,7 @@
     "react-dom": "16.8.6",
     "reactjs-text-to-image": "0.0.1",
     "resolve": "1.15.1",
-    "sass-loader": "7.1.0",
+    "sass-loader": "7.3.1",
     "semantic-ui-react": "0.87.1",
     "semver": "6.3.0",
     "style-loader": "0.23.1",
