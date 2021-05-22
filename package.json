@@ -19,7 +19,7 @@
     "dotenv": "10.0.0",
     "dotenv-expand": "5.1.0",
     "emoji-mart": "3.0.1",
-    "eslint": "7.26.0",
+    "eslint": "7.27.0",
     "eslint-config-react-app": "6.0.0",
     "eslint-loader": "4.0.2",
     "eslint-plugin-flowtype": "5.7.2",
