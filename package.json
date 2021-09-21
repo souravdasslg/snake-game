@@ -55,7 +55,7 @@
     "sass-loader": "12.1.0",
     "semantic-ui-react": "2.0.3",
     "semver": "7.3.5",
-    "style-loader": "3.2.1",
+    "style-loader": "3.3.0",
     "terser-webpack-plugin": "5.2.4",
     "text-image": "0.7.0",
     "ts-pnp": "1.2.0",
