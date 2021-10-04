@@ -45,7 +45,7 @@
     "postcss-normalize": "10.0.1",
     "postcss-preset-env": "6.7.0",
     "postcss-safe-parser": "6.0.0",
-    "react": "17.0.1",
+    "react": "17.0.2",
     "react-app-polyfill": "2.0.0",
     "react-bootstrap": "1.6.4",
     "react-dev-utils": "11.0.4",
