@@ -35,7 +35,7 @@
     "jest": "28.1.1",
     "jest-environment-jsdom-fourteen": "1.0.1",
     "jest-resolve": "28.1.1",
-    "jest-watch-typeahead": "1.1.0",
+    "jest-watch-typeahead": "2.2.2",
     "lodash.findindex": "4.6.0",
     "mini-css-extract-plugin": "2.6.1",
     "optimize-css-assets-webpack-plugin": "6.0.1",
